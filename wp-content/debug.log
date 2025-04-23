@@ -318,3 +318,11 @@ Stack trace:
 #2 [internal function]: IC_EPC_Tracking->fatal()
 #3 {main}
   thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
+[23-Apr-2025 04:08:12 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/templates/themes/theme-classic-list.php on line 122
+[23-Apr-2025 04:08:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_products_count() in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:117
+Stack trace:
+#0 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#1 /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#2 [internal function]: IC_EPC_Tracking->fatal()
+#3 {main}
+  thrown in /workspaces/UX221FinalExam/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
