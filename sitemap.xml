@@ -52,6 +52,36 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/products/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/kitz-store/cookie-decorating-kit-zoom-friendly/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/kitz-store/diy-slime-chemistry-kit/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/kitz-store/paint-your-culture-kit/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/kitz-store/family-candle-making-kit/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/kitz-store/letters-to-the-future-kit/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/category/family-wellness/
         </loc>
     </url>
