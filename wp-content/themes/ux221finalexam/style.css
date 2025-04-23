@@ -7,46 +7,33 @@ Template:       twentytwentyfive
 (optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
-  --blue: #1e90ff;
-  --white: #ffffff;
-}
-header.wp-block-template-part {
-    background-color: #f0f5f3; 
-    color: #2e2e2e;
-    padding: 20px 0;
-    border-bottom: 1px solid #ddd;
-}
-
-header .wp-block-navigation a {
-    color: #2e2e2e;
-    font-size: 18px;
-    font-weight: 500;
-    text-decoration: none;
-    padding: 10px 15px;
+    --blue: #1e90ff;
+    --white: #ffffff;
+	--pink: #f0f5f3;
+	--black: black;
+	--light-pink: #d3dfae;
+    --header-footer-font:  "Lora", serif;
+    --body-font: "Montserrat", serif;
 }
 
-header .wp-block-navigation a:hover {
-    color: #5c8a79;
-    background-color: #e3ede9;
-    border-radius: 6px;
+header {
+	background-color: var(--pink);
+	color: var(--black);
 }
 
-footer.wp-block-template-part {
-    background-color: #e8f1ee; 
-    color: #3b4c4e;
-    padding: 30px 0;
-    font-size: 16px;
-    text-align: center;
-    border-top: 1px solid #ccc;
+body {
+	background-color: var(--light-pink);
+    font-family: var(--body-font);
 }
 
-footer a {
-    color: #3b4c4e;
-    text-decoration: none;
-}
+footer {
+	background-color: var(--pink);
+	color: var(--black);
+} 
 
-footer a:hover {
-    color: #5c8a79;
-    text-decoration: underline;
+header, footer {
+    font-family: var(--header-footer-font);
 }
